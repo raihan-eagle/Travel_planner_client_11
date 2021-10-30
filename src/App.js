@@ -44,18 +44,17 @@ function App() {
                 </Route>
                 <Route path='/manageorders'>
                   <ManageOrders></ManageOrders>
-                </Route>
-                         
+                </Route>                        
                 
                 <PrivateRoute path='/nineee'>
                 </PrivateRoute>
 
                 <Route path=''>
-
                 </Route>
                 <Route path='*'>
                   <Notfound></Notfound>
                 </Route>
+                
               </Switch>
             </Router>
       </AuthProvider>
