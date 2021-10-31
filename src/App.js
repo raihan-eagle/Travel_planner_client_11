@@ -11,6 +11,7 @@ import AddService from './component/AddService/AddService';
 import ServiceDetails from './component/ServiceDetails/ServiceDetails';
 import ManageServices from './component/ManageServices/ManageServices';
 import ManageOrders from './component/ManageOrders/ManageOrders';
+import Footer from './component/Footer/Footer';
 
 
 function App() {
@@ -29,22 +30,22 @@ function App() {
                 <Route path='/login'>
                   <Login></Login>
                 </Route>
-                <Route path='/services/:serviceid'>
+                <PrivateRoute path='/services/:serviceid'>
                   <ServiceDetails></ServiceDetails>
-                </Route> 
+                </PrivateRoute> 
                 <Route path='/services'>
                   <Services></Services>
                 </Route>                
-                <Route path='/addservice'>
+                <PrivateRoute path='/addservice'>
                   <AddService></AddService>
-                </Route>
+                </PrivateRoute>
 
-                <Route path='/manageservices'>
+                <PrivateRoute path='/manageservices'>
                   <ManageServices></ManageServices>
-                </Route>
-                <Route path='/manageorders'>
+                </PrivateRoute>
+                <PrivateRoute path='/manageorders'>
                   <ManageOrders></ManageOrders>
-                </Route>                        
+                </PrivateRoute>                        
                 
                 <PrivateRoute path='/nineee'>
                 </PrivateRoute>
@@ -56,6 +57,7 @@ function App() {
                 </Route>
                 
               </Switch>
+              <Footer></Footer>
             </Router>
       </AuthProvider>
     </div>
