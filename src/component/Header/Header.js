@@ -18,9 +18,10 @@ const Header = () => {
                     <Nav className="me-auto">
                                 <NavDropdown title="Dashboard" id="basic-nav-dropdown">
                                 <NavDropdown.Item as={HashLink} to="/home">Home</NavDropdown.Item>
-                                <NavDropdown.Item as={HashLink} to="/manageorders">Manage Orders</NavDropdown.Item>
-                                <NavDropdown.Item as={HashLink} to="/manageservices">Manage Services</NavDropdown.Item>
+                                <NavDropdown.Item as={HashLink} to="/manageorders">Manage All Orders</NavDropdown.Item>
+                                <NavDropdown.Item as={HashLink} to="/manageservices">Manage All Services</NavDropdown.Item>
                                 <NavDropdown.Item as={HashLink} to="/addservice">Add a service</NavDropdown.Item>
+                                <NavDropdown.Item as={HashLink} to="/myorders">My Orders</NavDropdown.Item>
                                 {/* <NavDropdown.Divider />
                                 <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item> */}
                                 </NavDropdown>
