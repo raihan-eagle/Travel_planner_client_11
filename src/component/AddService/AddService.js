@@ -28,7 +28,7 @@ const AddService = () => {
             <input {...register("packages", )} placeholder='2 Night - 3 Days'/>
             <input {...register("img", )} placeholder='Image-url'/>
             <input type="number" {...register("price", )} placeholder='Price' />
-            <input type="submit" />
+            <input className='btn btn-success' type="submit" />
             </form>
             <button onClick={()=>reset()} className='btn btn-warning'>Reset input field</button>
 

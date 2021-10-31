@@ -15,7 +15,7 @@ const Aboutus = () => {
                     <div className='row text-format'>
                         <div className='col-md-4 p-3 d-flex'>
                             <div>
-                                <img className='img-fluid' src="https://i.ibb.co/3kjgRMg/bg-png.webp" alt="" />
+                                <img className='img-fluid' src="https://i.ibb.co/bbFSFnW/download-1.jpg" alt="" />
                             </div>
                             <div className='w-75'>
                                 <h6 className='p-2 text-center'>COMMUNITY</h6>
@@ -26,7 +26,7 @@ const Aboutus = () => {
                         </div>
                         <div className='col-md-4 p-3 d-flex'>
                         <div>
-                                <img className='img-fluid' src="https://i.ibb.co/jMJ78H4/checklist-png.webp" alt="" />
+                                <img className='img-fluid' src="https://i.ibb.co/bbFSFnW/download-1.jpg" alt="" />
                             </div>
                             <div className='w-75'>
                                 <h6 className='p-2 text-center'> DIFFERENCE Here</h6>
@@ -37,7 +37,7 @@ const Aboutus = () => {
                         </div>
                         <div className='col-md-4 p-3 d-flex'>
                         <div>
-                                <img className='img-fluid' src="https://i.ibb.co/9WtBZ82/shower-min-png.webp" alt="" />
+                                <img className='img-fluid' src="https://i.ibb.co/bbFSFnW/download-1.jpg" alt="" />
                             </div>
                             <div className='w-75'>
                                 <h6 className='p-2 text-center'>IN OUR Tour</h6>

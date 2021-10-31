@@ -15,7 +15,7 @@ const Service = (props) => {
                     <div className="card h-100">
                     <img src={img} className="card-img-top img-fluid "  alt="..."/>
                     <div className="card-body">
-                        <h5 className="card-title">{_id} {name}</h5>
+                        <h5 className="card-title"> Price : {price} - {name}</h5>
                         <p className="card-text">{shortdetails}</p>
                     </div>
                     <div className="card-footer">
@@ -23,7 +23,7 @@ const Service = (props) => {
                     </div>
                     <div >
                         <Link to={`/services/${_id}`}>
-                        <button className="btn btn-warning px-3 py-1 m-2">Details</button>
+                        <button className="btn btn-info px-3 py-1 m-2">Book Now</button>
                         </Link>
                     </div>
                     </div>

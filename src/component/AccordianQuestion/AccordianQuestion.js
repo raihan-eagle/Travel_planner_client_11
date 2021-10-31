@@ -3,12 +3,12 @@ import { Accordion } from 'react-bootstrap';
 
 const AccordianQuestion = () => {
     return (
-        <div id='frequentquestions'>
+        <div id='frequentquestions' className='bg-light'>
             <hr />
             <br />
             <h1 className='fw-bold text-warning p-3 m-md-3'>FREQUENTLY ASKED QUESTIONS</h1>
             <div className='w-75 m-auto'>
-            <Accordion defaultActiveKey="0" flush>
+            <Accordion defaultActiveKey="0" >
                     <Accordion.Item eventKey="0">
                         <Accordion.Header>1. Whats included in your packages?</Accordion.Header>
                         <Accordion.Body>Depending on the offer you buy we only provide food, travel cost.
